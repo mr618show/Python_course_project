@@ -65,7 +65,7 @@ class Hand:
         print self.cards# add a card object to a hand
 
     def get_value(self):
-        # count aces as 1, if the hand has an ace, then add 10 to hand value if it doesn't bust
+        # count aces as 1, if the hand has an ace, then add 10 to hand value if it doesn't bust.
         value = 0
         A_count = 0
         for card in self.cards:             
